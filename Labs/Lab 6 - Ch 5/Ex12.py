@@ -10,7 +10,7 @@ score = 0
 for i in range(0, 5):
     rand = randint(1, 10)
     guess = int(input("Guess number: "))
-    if guess is rand:
+    if guess == rand:
         print("Correct Guess +10")
         score += 10
     else:
