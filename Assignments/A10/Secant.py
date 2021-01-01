@@ -22,13 +22,6 @@ def clickMe():
 
     a.set(e)
     b.set(c)
-    # if fs*fc > 0 and fe*fc < 0:
-    #    a.set(c)
-    # elif fe*fc > 0 and fs*fc < 0:
-    #    b.set(c)
-    # else:
-    #    n1 = 'ERROR due to wrong interval of values'
-    #    cond = 1
     if cond == 0:
         n1 = str(p+str(globals()['co'])+'\t'+str(s)+'\t\t\t'+str(e) +
                  '\t\t\t'+str(c)+'\t\t\t'+str(fs)+'\t\t\t'+str(fe)+'\t\t\t'+str(fc))
