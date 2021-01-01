@@ -14,13 +14,17 @@ lst = [
 ]
 
 ones = []
+onesLen = 0
 for i in range(5):
     for j in range(5):
         if lst[i][j] == 1:
             ones.append((j, i))
+            onesLen += 1
 
 while len(ones) < 25:
     r = (randint(0, 4), randint(0, 4))
     if r not in ones:
         lst[r[0]][r[1]] = 1
         ones.append(r)
+
+print("All entries are 1 after", 25 - onesLen, "changes.")
