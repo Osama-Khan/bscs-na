@@ -24,7 +24,7 @@ print((512-282)/(47 * 48 + 5.0))
 
 # Exercise 5
 n = int(input("Enter a number: "))
-print("The square of 5 is", n**n, sep=" ")
+print("The square of 5 is", n**2, sep=" ")
 
 # Exercise 6
 n = int(input("Enter a number: "))
