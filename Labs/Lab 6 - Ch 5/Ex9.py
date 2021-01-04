@@ -11,4 +11,4 @@ for i in range(1, 1001):
         continue
     count += 1
 
-print(f"Numbers of such Integers: {count} {count2} {count3}")
+print(f"Numbers of such Integers: {count}")
