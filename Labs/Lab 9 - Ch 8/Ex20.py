@@ -1,3 +1,6 @@
+# Write a program that checks to see if a4×4list is a magic square. In a magic square,
+# every row, column, and the two diagonals add up to the same value.
+
 lst = [
     [9, 6, 3, 16],
     [4, 15, 10, 5],
